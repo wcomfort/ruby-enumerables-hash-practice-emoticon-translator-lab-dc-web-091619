@@ -15,6 +15,8 @@ end
 def get_japanese_emoticon(path, emoticon)
   emoticon_hash = load_library(path)
   trans = emoticon_hash["get_emoticon"][emoticon]
+  if trans == nil 
+    p
 end
 
 def get_english_meaning
