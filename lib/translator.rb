@@ -7,7 +7,7 @@ emoticon_hash = {
   "get_meaning" => {},
   "get_emoticon" => {}
 }
-emot_trans.each do |key, value|
+emot_trans.each do |english_word, emoticon_set|
     emoticon_hash["get_emoticon"][emoticon_set.first] = emoticon_set.last
     emoticon_hash["get_meaning"][emoticon_set.last] = english_word
   end
