@@ -2,6 +2,7 @@ require "yaml"
 require "pry"
 def load_library(path)
 emot_trans = YAML.load_file(path)
+binding.pry
 emoticon_hash = {
   "get_meaning" => {},
   "get_emoticon" => {}
