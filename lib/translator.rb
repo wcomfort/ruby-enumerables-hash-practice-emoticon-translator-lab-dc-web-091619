@@ -8,7 +8,10 @@ emoticon_hash = {
   "get_emoticon" => {}
 }
 emot_trans.each do |key, value|
-end 
+    emoticon_hash["get_emoticon"][emoticon_set.first] = emoticon_set.last
+    emoticon_hash["get_meaning"][emoticon_set.last] = english_word
+  end
+  emoticon_hash
 end
 
 def get_japanese_emoticon
