@@ -12,8 +12,8 @@ emot_trans.each do |key, value|
   emoticon_hash
 end
 
-def get_japanese_emoticon
-  
+def get_japanese_emoticon(path, emoticon)
+  emoticon_hash = 
 end
 
 def get_english_meaning
