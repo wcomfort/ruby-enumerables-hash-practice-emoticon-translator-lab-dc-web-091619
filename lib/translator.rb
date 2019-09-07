@@ -8,7 +8,6 @@ emoticon_hash = {
   "get_emoticon" => {}
 }
 emot_trans.each do |key, value|
-binding.pry
 end 
 end
 
