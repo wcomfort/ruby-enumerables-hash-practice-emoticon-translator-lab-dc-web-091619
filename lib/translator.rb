@@ -7,7 +7,7 @@ emoticon_hash = {
   "get_meaning" => {},
   "get_emoticon" => {}
 }
-emot_trans.each do |
+#emot_trans.each do |
 end
 
 def get_japanese_emoticon
