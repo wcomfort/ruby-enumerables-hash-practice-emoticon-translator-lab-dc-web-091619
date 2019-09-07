@@ -18,7 +18,7 @@ def get_japanese_emoticon(path, emoticon)
   if trans == nil 
     trans = "Sorry"
   end
-  
+  trans 
 end
 
 def get_english_meaning
