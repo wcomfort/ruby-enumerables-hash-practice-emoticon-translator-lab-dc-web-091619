@@ -1,7 +1,10 @@
 require "yaml"
 def load_library(path)
 emot_trans = YAML.load(File.read(path))
-emoticon_hash = {}
+emoticon_hash = {
+  :get_meaning => {}
+  :get_emoticon => {}
+}
 
 end
 
